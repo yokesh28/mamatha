@@ -2,10 +2,10 @@
 $getUrl = $(location).attr('href');
 
 $getUrlLoc = "location.href='" + $(location).attr('href') + "'";
-if ($getUrl != 'http://localhost/cca/new1/') {
-    if ($getUrl != 'http://localhost/cca/new1/#!/') {
+if ($getUrl != 'http://localhost/mamatha/site2/') {
+    if ($getUrl != 'http://localhost/mamatha/site2/#!/') {
         $(window).load(function () {
-            if ($getUrl.substring(0, 51) == "http://localhost/cca/new1/#!/photography/") {
+            if ($getUrl.substring(0, 51) == "http://localhost/mamatha/site2/#!/photography/") {
                 $(".hoverscrollVideo").hide();
                 $(".hoverscrollPhoto").css("display", "block");
                 $('.nav').find('a').removeClass('active');
