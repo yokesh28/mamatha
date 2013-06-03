@@ -69,6 +69,7 @@ var Gallery = {
 					asset,
 					html = '';
 
+
 				if (image.type == 'image') {
 					html += '<div id="no'+newId+'" class="asset image" style="top: '+(((index) * wHeight) + topBar)+'px;z-index:'+(index)+';height:'+wHeight+'px"> \
 						<div class="ie-shadow-top"></div><div class="inner-shadow">';
