@@ -868,7 +868,7 @@ body.gallery #content .assets .asset .ie-shadow-top  {
 body.gallery #content .assets .asset .copy .ie-shadow-right {
 
   
-  background: url(http://localhost/mamatha/site1/images/new7.jpg) 0 0 repeat-y;
+  background: url(../images/new7.jpg) 0 0 repeat-y;
   position: absolute;
   top: 0;
   width: 25px;
@@ -883,7 +883,7 @@ body.gallery #content .assets .asset .copy .ie-shadow-right {
 
   
   display: block;
-  background: url(http://localhost/mamatha/site1/images/new9.jpg) 0 0 repeat-y;
+  background: url(../images/new9.jpg) 0 0 repeat-y;
   position: absolute;
   top: 0;
   left: 0;
