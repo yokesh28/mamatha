@@ -164,7 +164,9 @@
 }
 
 #sb-nav-play {
-	background-image: url(play.png);
+
+	background-image: url("images/play.png");
+
 }
 
 #sb-nav-pause {

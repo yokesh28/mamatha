@@ -537,15 +537,13 @@ body.gallery #content .assets .asset .inner-shadow {
 	background: #ffffff;
 }
 
-body.gallery #content .assets .asset.image .inner-shadow,body.gallery #content .assets .asset.video .inner-shadow
-	{
-	background: #ffffff
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/progress.gif)
-		50% 50% no-repeat;
-	overflow: hidden;
-	width: 100%;
-	height
-	100%;
+body.gallery #content .assets .asset.image .inner-shadow,
+body.gallery #content .assets .asset.video .inner-shadow {
+  background: #ffffff url(http://localhost/mamatha/site1/images/new1.jpg) 50% 50% no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height 100%;
+
 }
 
 body.gallery #content .assets .asset.image .img {
@@ -580,17 +578,21 @@ body.gallery #content .assets .asset .show_copy,body.gallery #content .assets .a
 }
 
 body.gallery #content .assets .asset .close_caption {
-	background: #373737
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/close.png)
-		0 0 no-repeat;
-	background-position: 7px 5px;
+
+  background: #373737 url(http://localhost/mamatha/site1/images/new2.jpg) 0 0 no-repeat;
+  
+  background-position: 7px 5px;
+  
+
 }
 
 body.gallery #content .assets .asset .show_copy {
-	background: #373737
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/caption.png)
-		50% 50% no-repeat;
-	background-position: 0px 0;
+
+  background: #373737 url(http://localhost/mamatha/site1/images/new4.jpg) 50% 50% no-repeat;
+  
+  background-position: 0px 0;
+  
+
 }
 
 body.gallery #content .asset.txt .inner {
@@ -849,40 +851,46 @@ body.simple #content .container {
 /* end ie styles */
 
 /* shadows */
-body.gallery #content .assets .asset .ie-shadow-top {
-	display: block;
-	position: absolute;
-	left: 0;
-	top: -25px;
-	width: 100%;
-	height: 25px;
-	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/shadow.png)
-		0 0 repeat-x;
+
+body.gallery #content .assets .asset .ie-shadow-top  {
+  
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -25px;
+  width: 100%;
+  height: 25px;
+  background: url(http://localhost/mamatha/site1/images/new6.jpg) 0 0 repeat-x;
+  
+
 }
 
 body.gallery #content .assets .asset .copy .ie-shadow-right {
-	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/shadow-left.png)
-		0 0 repeat-y;
-	position: absolute;
-	top: 0;
-	width: 25px;
-	height: 100%;
-	right: 0;
-	display: block;
+
+  
+  background: url(http://localhost/mamatha/site1/images/new7.jpg) 0 0 repeat-y;
+  position: absolute;
+  top: 0;
+  width: 25px;
+  height: 100%;
+  right: 0;
+  display: block;
+  
+
 }
 
 #menu .ie-shadow-left {
-	display: block;
-	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/shadow-right.png)
-		0 0 repeat-y;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 5px;
-	height: 100%;
-	z-index: 99;
+
+  
+  display: block;
+  background: url(http://localhost/mamatha/site1/images/new9.jpg) 0 0 repeat-y;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  z-index: 99;
+  
+
 }
 /* end shadows */
