@@ -191,7 +191,7 @@
 		<div id="wrapside">
 			<ul class="jTscroller">
 				<li class="documentary  canfade" 
-					onClick="location.href='http://localhost/mamatha/site2/#!/updateData.php?id=2'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=2'"><img
 					src="images/small2.jpg" />
 					<h4>Better Cotton In Mali</h4> <span></span></li>
 				<li class="documentary  canfade"
