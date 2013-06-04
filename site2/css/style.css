@@ -305,11 +305,11 @@ p {
 }
 
 .cursorplus {
-	cursor: url(images/cursoropen.cur), auto;
+	cursor: url(../images/cursoropen.cur), auto;
 }
 
 .cursorless {
-	cursor: url(images/cursorclose.cur), auto;
+	cursor: url("../images/cursorclose.cur"), auto;
 }
 
 #contentWrap {
@@ -494,7 +494,7 @@ p {
 	display: block;
 	width: 28px;
 	height: 28px;
-	background: url(images/vimeo.png) no-repeat;
+	background: url(../images/vimeo.png) no-repeat;
 	background-size: contain;
 	text-indent: -9999em;
 	margin-right: 2px;
@@ -506,12 +506,12 @@ p {
 }
 
 .social-contact:nth-child(2) a {
-	background: url(images/flickr.png) no-repeat;
+	background: url(../images/flickr.png) no-repeat;
 	background-size: contain;
 }
 
 .social-contact:nth-child(3) a {
-	background: url(images/linkedin.png) no-repeat;
+	background: url(../images/linkedin.png) no-repeat;
 	background-size: contain;
 }
 
@@ -576,7 +576,7 @@ span.wpcf7-form-control-wrap {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	background: url('images/contactbg.png') repeat scroll 0 top transparent;
+	background: url("../images/contactbg.png") repeat scroll 0 top transparent;
 	padding-top: 12px;
 	height: 20px;
 	font-family: 'Oswald', Arial, Helvetica, sans-serif;
@@ -621,7 +621,7 @@ span.your-message {
 	height: 198px;
 	display: block;
 	position: relative;
-	background: url('images/contactbg.png') repeat scroll 0 top transparent;
+	background: url('../images/contactbg.png') repeat scroll 0 top transparent;
 }
 
 .your-message .wpcf7-not-valid-tip {
@@ -709,7 +709,7 @@ div.wpcf7 .watermark {
 #atelierdesign h2 {
 	font-size: 9px;
 	line-height: 0;
-	background: url(images/icon.png) no-repeat;
+	background: url(../images/icon.png) no-repeat;
 	width: 20px;
 	height: 13px;
 	float: left;

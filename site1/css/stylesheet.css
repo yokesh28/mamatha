@@ -233,7 +233,7 @@ Menu Nav
 	top: 19px;
 	text-decoration: none;
 	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/close.png)
+		url(../images/close.png)
 		0 0 no-repeat;
 	background-position: 0 -33px;
 	text-indent: -9000em;
@@ -379,7 +379,7 @@ Menu Nav
 
 #menu ul.nav .arrow-right {
 	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/arrows-on.png)
+		url(../images/arrows-on.png)
 		0 0 no-repeat;
 	background-position: 0 0;
 	display: inline-block;
@@ -389,7 +389,7 @@ Menu Nav
 
 #menu ul.nav .arrow-down {
 	background:
-		url(http://a1.4ormat.com/theme_versions/124120/assets/images/arrows.png)
+		url(../images/arrows.png)
 		0 0 no-repeat;
 	background-position: 0 0;
 	display: inline-block;
