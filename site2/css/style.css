@@ -235,7 +235,7 @@ p {
 .social a {
 	display: block;
 	width: 100%;
-	background: url(images/email.png) no-repeat;
+	background: url("../images/email.png") no-repeat;
 	background-size: contain;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/email.png',
 		sizingMethod='scale');
@@ -266,7 +266,7 @@ p {
 }
 
 .social:nth-child(2) a {
-	background: url(images/vimeo.png) no-repeat;
+	background: url("../images/vimeo.png") no-repeat;
 	background-size: contain;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/vimeo.png',
 		sizingMethod='scale');
@@ -275,7 +275,7 @@ p {
 }
 
 .social:nth-child(3) a {
-	background: url(images/flickr.png) no-repeat;
+	background: url("../images/flickr.png") no-repeat;
 	background-size: contain;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/flickr.png',
 		sizingMethod='scale');
@@ -284,7 +284,7 @@ p {
 }
 
 .social:nth-child(4) a {
-	background: url(images/linkedin.png) no-repeat;
+	background: url("../images/linkedin.png") no-repeat;
 	background-size: contain;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/linkedin.png',
 		sizingMethod='scale');
