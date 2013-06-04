@@ -1,6 +1,6 @@
 //active state onload
 $getUrl = $(location).attr('href');
-var ad_site_url='http://localhost/mamatha/site2';
+var ad_site_url='http://localhost/mamatha/site2/';
 
 $getUrlLoc = "location.href='" + $(location).attr('href') + "'";
 if ($getUrl != 'http://localhost/mamatha/site2/') {
