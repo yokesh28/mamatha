@@ -209,7 +209,15 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
 
 100%{
 -moz-transform
+
+
+
+
 :rotate(359deg)
+
+
+
+
 }
 }
 @
@@ -219,7 +227,15 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
 
 100%{
 -webkit-transform
+
+
+
+
 :rotate(359deg)
+
+
+
+
 }
 }
 @
@@ -229,7 +245,15 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
 
 100%{
 -o-transform
+
+
+
+
 :rotate(359deg)
+
+
+
+
 }
 }
 @
@@ -239,7 +263,15 @@ ul.icons li [class^="icon-"],ul.icons li [class*=" icon-"] {
 
 100%{
 -ms-transform
+
+
+
+
 :rotate(359deg)
+
+
+
+
 }
 }
 @
@@ -249,12 +281,20 @@ keyframes spin { 0%{
 
 100%{
 transform
+
+
+
+
 :rotate(359deg)
+
+
+
+
 }
 }
 @
--moz-document url-prefix (){ .
-	icon-spin {height: .9em
+-moz-document url-prefix   (){ . icon-spin {
+	height: .9em
 }
 
 .btn .icon-spin {
