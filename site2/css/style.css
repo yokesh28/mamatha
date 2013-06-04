@@ -237,10 +237,10 @@ p {
 	width: 100%;
 	background: url("../images/email.png") no-repeat;
 	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/email.png',
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/email.png',
 		sizingMethod='scale');
 	-ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='
-		images/email.png ',sizingMethod=' scale ')';
+		../images/email.png ',sizingMethod=' scale ')';
 	text-indent: -9999em;
 	position: absolute;
 }
@@ -268,28 +268,28 @@ p {
 .social:nth-child(2) a {
 	background: url("../images/vimeo.png") no-repeat;
 	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/vimeo.png',
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/vimeo.png',
 		sizingMethod='scale');
 	-ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='
-		images/vimeo.png ',sizingMethod=' scale ')';
+		../images/vimeo.png ',sizingMethod=' scale ')';
 }
 
 .social:nth-child(3) a {
 	background: url("../images/flickr.png") no-repeat;
 	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/flickr.png',
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/flickr.png',
 		sizingMethod='scale');
 	-ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='
-		images/flickr.png ',sizingMethod=' scale ')';
+		../images/flickr.png ',sizingMethod=' scale ')';
 }
 
 .social:nth-child(4) a {
 	background: url("../images/linkedin.png") no-repeat;
 	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/linkedin.png',
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/linkedin.png',
 		sizingMethod='scale');
 	-ms-filter: 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src='
-		images/linkedin.png ',sizingMethod=' scale ')';
+		../images/linkedin.png ',sizingMethod=' scale ')';
 }
 
 /*content*/
@@ -309,7 +309,9 @@ p {
 }
 
 .cursorless {
+
 	cursor: url("../images/cursorclose.cur"), auto;
+
 }
 
 #contentWrap {
@@ -576,7 +578,9 @@ span.wpcf7-form-control-wrap {
 	border: 0;
 	margin: 0;
 	padding: 0;
+
 	background: url("../images/contactbg.png") repeat scroll 0 top transparent;
+
 	padding-top: 12px;
 	height: 20px;
 	font-family: 'Oswald', Arial, Helvetica, sans-serif;
