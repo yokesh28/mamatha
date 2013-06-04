@@ -27,7 +27,7 @@
 <link href="css/shadowbox.css" type="text/css" rel="stylesheet" />
 <!--[if (gte IE 6)&(lte IE 8)]>
 
-<script src="http://www.tristangaland.com/wp-content/themes/themeajaxclean/js/selectivizr-min.js" type="text/javascript"></script>
+<script src="js/selectivizr-min.js" type="text/javascript"></script>
 <![endif]-->
 
 <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
@@ -70,8 +70,7 @@
 
 				Mamatha
 
-				<div id="loadingloading"
-					style="position: absolute; top: 60px; left: 50%;"></div>
+				<div id="loadingloading" style="position: absolute; top: 60px; left: 50%;"></div>
 			</h3>
 		</div>
 		<img class="bgmax" alt="background" src="images/new2.jpg" />
@@ -93,13 +92,13 @@
 				<ul id="social-contact-nav">
 					<li class="social-contact"><a
 						onclick="window.open(this.href); return false;"
-						href="http://vimeo.com/tristangaland/">Vimeo</a></li>
+						href="#">Vimeo</a></li>
 					<li class="social-contact"><a
 						onclick="window.open(this.href); return false;"
-						href="http://www.flickr.com/photos/tristangaland/">Flickr</a></li>
+						href="#">Flickr</a></li>
 					<li class="social-contact"><a
 						onclick="window.open(this.href); return false;"
-						href="http://www.linkedin.com/pub/tristan-galand/62/1a7/991">LinkedIn</a></li>
+						href="#">LinkedIn</a></li>
 				</ul>
 			</div>
 			<div class="wpcf7" id="wpcf7-f138-t1-o1">
@@ -200,23 +199,23 @@
 					src="images/small3.jpg" />
 					<h4>Better Cotton in Brazil</h4> <span></span></li>
 				<li class="documentary  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new4.jpg'"><img
+					onClick="location.href='http://localhost/mamatha/site2/images/new3.jpg'"><img
 					src="images/small4.jpg" />
 					<h4>Better Cotton in Pakistan</h4> <span></span></li>
 				<li class="musicvideo  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new6.jpg'"><img
+					onClick="location.href='http://localhost/mamatha/site2/images/new4.jpg'"><img
 					src="images/small5.jpg" />
 					<h4>Conversation in G minor</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new7.jpg'"><img
+					onClick="location.href='http://localhost/mamatha/site2/images/new5.jpg'"><img
 					src="images/small6.jpg" />
 					<h4>Mimesis</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new9.jpg'"><img
+					onClick="location.href='http://localhost/mamatha/site2/images/new6.jpg'"><img
 					src="images/small7.jpg" />
 					<h4>Leçons de conduite</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new10.jpg'"><img
+					onClick="location.href='http://localhost/mamatha/site2/images/new7.jpg'"><img
 					src="images/small9.jpg" />
 					<h4>Droplets</h4> <span></span></li>
 				<li class="documentary fiction  canfade"
@@ -531,14 +530,7 @@ jQuery(document).ready(function($) {
 			$(this).stop(true,true).animate({opacity:1}, 300);
 		});	
 		
-		//input alignement for SAFARI only
-		/*if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1 && navigator.userAgent.match(/iPad/i) == null){
-			$('.wpcf7-form-control').not(".wpcf7-submit").css("background","http://www.tristangaland.com/wp-content/themes/themeajaxclean/img/contactbg.png) 0 -6px");
-			$('.your-message .wpcf7-form-control').css(
-				"background","url(http://www.tristangaland.com/wp-content/themes/themeajaxclean/img/contactbg.png) 0 6px");
-			$('.your-message').css("margin-top","-12px");
-			$('.your-subject .wpcf7-form-control, .your-email .wpcf7-form-control, .your-name .wpcf7-form-control').css("padding-top","20px");
-		}*/
+		
 	
 		//loader animation
 		var cl = new CanvasLoader('loadinggif');
