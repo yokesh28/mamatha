@@ -539,7 +539,7 @@ body.gallery #content .assets .asset .inner-shadow {
 
 body.gallery #content .assets .asset.image .inner-shadow,
 body.gallery #content .assets .asset.video .inner-shadow {
-  background: #ffffff url(http://localhost/mamatha/site1/images/new1.jpg) 50% 50% no-repeat;
+  background: #ffffff url() 50% 50% no-repeat;
   overflow: hidden;
   width: 100%;
   height 100%;
@@ -579,7 +579,7 @@ body.gallery #content .assets .asset .show_copy,body.gallery #content .assets .a
 
 body.gallery #content .assets .asset .close_caption {
 
-  background: #373737 url(http://localhost/mamatha/site1/images/new2.jpg) 0 0 no-repeat;
+  background: #373737 url() 0 0 no-repeat;
   
   background-position: 7px 5px;
   
@@ -588,7 +588,7 @@ body.gallery #content .assets .asset .close_caption {
 
 body.gallery #content .assets .asset .show_copy {
 
-  background: #373737 url(http://localhost/mamatha/site1/images/new4.jpg) 50% 50% no-repeat;
+  background: #373737 url() 50% 50% no-repeat;
   
   background-position: 0px 0;
   
@@ -860,7 +860,7 @@ body.gallery #content .assets .asset .ie-shadow-top  {
   top: -25px;
   width: 100%;
   height: 25px;
-  background: url(http://localhost/mamatha/site1/images/new6.jpg) 0 0 repeat-x;
+  background: url() 0 0 repeat-x;
   
 
 }
