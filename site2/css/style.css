@@ -309,7 +309,9 @@ p {
 }
 
 .cursorless {
-	cursor: url(../images/cursorclose.cur), auto;
+
+	cursor: url("../images/cursorclose.cur"), auto;
+
 }
 
 #contentWrap {
@@ -576,7 +578,9 @@ span.wpcf7-form-control-wrap {
 	border: 0;
 	margin: 0;
 	padding: 0;
-	background: url('../images/contactbg.png') repeat scroll 0 top transparent;
+
+	background: url("../images/contactbg.png") repeat scroll 0 top transparent;
+
 	padding-top: 12px;
 	height: 20px;
 	font-family: 'Oswald', Arial, Helvetica, sans-serif;
