@@ -82,12 +82,12 @@
 			style="position: absolute; top: 30px; left: 294px; display: none;"></div>
 		<div id="contact">
 			<div id="contactWrapper">
-				<h2>Say Hello !</h2>
+				<h2>HELLO</h2>
 				<ul id="details">
 					<li><a href=""></a></li>
-					<li>(+32)484 98 81 96</li>
-					<li>Brussels</li>
-					<li>Belgium</li>
+					<li>+9999999999</li>
+					<li>india</li>
+					
 				</ul>
 				<ul id="social-contact-nav">
 					<li class="social-contact"><a
@@ -181,9 +181,9 @@
 			<div id="atelierdesign">
 				<p>created by</p>
 				<h2>
-					<a href="http://www.atelierdesign.be" title="Atelier Design"
-						style="color: #FFF; text-decoration: none" target="_blank">Atelier
-						Design</a>
+					<a href="#" title="Mamatha"
+						style="color: #FFF; text-decoration: none" target="_blank">Mamatha
+						</a>
 				</h2>
 			</div>
 		</div>
@@ -193,46 +193,46 @@
 				<li class="documentary  canfade" 
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=2'"><img
 					src="images/small2.jpg" />
-					<h4>Better Cotton In Mali</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="documentary  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=3'"><img
 					src="images/small3.jpg" />
-					<h4>Better Cotton in Brazil</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="documentary  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=4'"><img
 					src="images/small4.jpg" />
-					<h4>Better Cotton in Pakistan</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="musicvideo  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=5'"><img
 					src="images/small5.jpg" />
-					<h4>Conversation in G minor</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="fiction  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=6'"><img
 					src="images/small6.jpg" />
-					<h4>Mimesis</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="fiction  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=7'"><img
 					src="images/small7.jpg" />
-					<h4>Leçons de conduite</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="fiction  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=8'"><img
 					src="images/small9.jpg" />
-					<h4>Droplets</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 				<li class="documentary fiction  canfade"
 					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=9'"><img
 					src="images/small10.jpg" />
-					<h4>Le Passager</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 			</ul>
 			<ul class="jTscrollerPhoto">
 				<li class="photography  canfade"
 					onClick="location.href='http://localhost/mamatha/site2/images/new2.jpg'">
 					<img src="http://localhost/mamatha/site2/images/new2.jpg" />
-					<h4>Awa Coulibaly School</h4> <span></span>
+					<h4>Lorem Ipsum</h4> <span></span>
 				</li>
 				<li class="photography  canfade" onClick="location.href='http://localhost/mamatha/site2/images/new1.jpg'"><img
 					src="http://localhost/mamatha/site2/images/new1.jpg" />
 
-					<h4>Muay thai</h4> <span></span></li>
+					<h4>Lorem Ipsum</h4> <span></span></li>
 			</ul>
 		</div>
 	</div>
