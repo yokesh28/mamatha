@@ -1,5 +1,4 @@
-
-	<img width="1920" height="1080" src="http://www.tristangaland.com/wp-content/uploads/sunset1.jpg" class="attachment-feature-image-2" alt="sunset" style="width: 1535px; height: 864px; left: 0px; top: -262.5px;">        <div id="contentWrap" class="mCustomScrollbar _mCS_5"><div class="mCustomScrollBox" id="mCSB_5" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position:relative; top:0;">
+	<img width="1920" height="1080" src="images/new<?php echo $_REQUEST['id']?>.jpg" class="attachment-feature-image-2" alt="sunset" style="width: 1535px; height: 864px; left: 0px; top: -262.5px;">        <div id="contentWrap" class="mCustomScrollbar _mCS_5"><div class="mCustomScrollBox" id="mCSB_5" style="position:relative; height:100%; overflow:hidden; max-width:100%;"><div class="mCSB_container" style="position:relative; top:0;">
 	<div class="article">
 	<div id="vidThumbWrapper">
 	<img class="vidthumb" src="http://www.tristangaland.com/wp-content/uploads/gamins_link-755x425.jpg" style="opacity: 1;">
@@ -34,4 +33,3 @@
 	</div>
 	</div>
 	</div><div class="mCSB_scrollTools" style="position: absolute; display: block;"><div class="mCSB_draggerContainer" style="position:relative;"><div class="mCSB_dragger ui-draggable" style="position: absolute; height: 50px;"><div class="mCSB_dragger_bar" style="position: relative; line-height: 50px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
-	

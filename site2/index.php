@@ -191,35 +191,35 @@
 		<div id="wrapside">
 			<ul class="jTscroller">
 				<li class="documentary  canfade" 
-					onClick="location.href='http://localhost/mamatha/site2/#!/updateData.php?id=1'"><img
+					onClick="location.href='http://localhost/mamatha/site2/#!/updateData.php?id=2'"><img
 					src="images/small2.jpg" />
 					<h4>Better Cotton In Mali</h4> <span></span></li>
 				<li class="documentary  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new2.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=3'"><img
 					src="images/small3.jpg" />
 					<h4>Better Cotton in Brazil</h4> <span></span></li>
 				<li class="documentary  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new3.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=4'"><img
 					src="images/small4.jpg" />
 					<h4>Better Cotton in Pakistan</h4> <span></span></li>
 				<li class="musicvideo  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new4.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=5'"><img
 					src="images/small5.jpg" />
 					<h4>Conversation in G minor</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new5.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=6'"><img
 					src="images/small6.jpg" />
 					<h4>Mimesis</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new6.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=7'"><img
 					src="images/small7.jpg" />
 					<h4>Leçons de conduite</h4> <span></span></li>
 				<li class="fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new7.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=8'"><img
 					src="images/small9.jpg" />
 					<h4>Droplets</h4> <span></span></li>
 				<li class="documentary fiction  canfade"
-					onClick="location.href='http://localhost/mamatha/site2/images/new11.jpg'"><img
+					onClick="location.href='<?php echo getcurrentpath(); ?>/#!/updateData.php?id=9'"><img
 					src="images/small10.jpg" />
 					<h4>Le Passager</h4> <span></span></li>
 			</ul>
@@ -567,5 +567,22 @@ jQuery(document).ready(function($) {
 </body>
 </html>
 
+<?php 
+function getcurrentpath()
+{   $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') 
+                === FALSE ? 'http' : 'https';
+$host     = $_SERVER['HTTP_HOST'];
+$script   = $_SERVER['SCRIPT_NAME'];
+$params   = $_SERVER['QUERY_STRING'];
+ 
+$currentUrl = $protocol . '://' . $host . $script . '?' . $params;
+ 
 
+$currentUrl=str_replace("index.php?/"," ",$currentUrl);
+ 
+
+return chop($currentUrl,'index.php?/');
+
+
+}?>
 

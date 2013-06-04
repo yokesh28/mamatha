@@ -169,7 +169,7 @@ $(document).ready(function () {
             processData: false,
             cache: false,
             dataType: 'html',
-            async: false,
+            async: true,
             // success
             success: function (data) {
             	$('#content').fadeIn();
